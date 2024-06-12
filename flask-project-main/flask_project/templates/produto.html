@@ -7,4 +7,6 @@
 {% block content %}
     <h1>{{ produto.name }}</h1>
     <p>{{ produto.description }}</p>
+    <a href="/produtos/(( produto.name))"> Ver produto</a>
+{% endfor %}
 {% endblock %}
